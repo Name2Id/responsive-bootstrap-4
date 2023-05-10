@@ -7,3 +7,11 @@
 body {
     font-family: 'Playfair Display', serif;
 }
+
+.rSbN_navbar {
+    background-color: rgba(255,255,255,0.7) !important;
+}
+
+.rSbN_navbar div , .rSbN_navbar ul {
+    background-color: transparent !important;
+}
