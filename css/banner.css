@@ -26,3 +26,23 @@
     font-size: 8vw;
     margin-bottom: 10px;
 }
+
+.rSbN_sombra p {
+    font-size: 4vw;
+    margin-bottom: 10px;
+}
+
+.rSbN_links {
+    margin: 15px;
+    position: relative;
+}
+
+.rSbN_links a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
