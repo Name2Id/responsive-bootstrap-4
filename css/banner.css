@@ -45,4 +45,10 @@
     padding: 1px;
     margin-bottom: 5px;
     width: 150px;
+    transition: all 1s;
+}
+
+.rSbN_links a:hover {
+    background-color: blueviolet;
+    color: #222;
 }
