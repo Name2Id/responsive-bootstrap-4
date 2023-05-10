@@ -38,6 +38,7 @@
 }
 
 .rSbN_links a {
+    position: relative;
     display: inline-block;
     color: #fff;
     text-decoration: none;
@@ -51,4 +52,28 @@
 .rSbN_links a:hover {
     background-color: blueviolet;
     color: #222;
+}
+
+.rSbN_links_animation {
+    opacity: 0;
+    animation: rSbN_fromThe_top 1s;
+    -webkit-animation: rSbN_fromThe_top 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.rSbN_links_animation_delay1 {
+    opacity: 0;
+    animation: rSbN_fromThe_top 1s;
+    -webkit-animation: rSbN_fromThe_top 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+}
+
+.rSbN_links_animation_delay2 {
+    opacity: 0;
+    animation: rSbN_fromThe_top 1s;
+    -webkit-animation: rSbN_fromThe_top 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
 }
